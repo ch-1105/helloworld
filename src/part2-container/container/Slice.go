@@ -1,10 +1,10 @@
-package main
+package container
 
 import (
 	"fmt"
 )
 
-func main() {
+func main3() {
 	// slice  => java List
 	// 使用append ， 接受得是它 输入参数也得是
 	var slice []int
