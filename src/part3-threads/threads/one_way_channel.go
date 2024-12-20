@@ -23,7 +23,7 @@ func consumer(c <-chan string) {
 		fmt.Println(data)
 	}
 }
-func main() {
+func one_way_channel() {
 	c := make(chan string, 3)
 	for i := 0; i < 3; i++ {
 		c <- strconv.Itoa(i)
